@@ -1,0 +1,126 @@
+.modal-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    position: fixed;
+    overflow: auto;
+    display: none;
+}
+
+.modal {
+    padding: 20px;
+    max-width: 615px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: var(--white);
+    font-family: 'Montserrat';
+    margin: 10% auto;
+}
+
+.modal h2 {
+    margin-bottom: 31px;
+}
+
+.btn-hideModal {
+    background-color: transparent;
+    border: none;
+    color: var(--gray);
+    font-size: 20px;
+    align-self: end;
+
+}
+
+.modal-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.modal-data label {
+    font-weight: 500;
+    position: relative;
+}
+
+.modal-data label::after {
+    content: "*";
+    position: absolute;
+    color: red;
+
+
+}
+
+
+.modal-data input {
+    width: 100%;
+    padding: 13px 0 13px 20px;
+    border: 1px solid var(--arrow);
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.card-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#number-card {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#active-card {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#cvv-card {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkbox-orange {
+    width: 16px;
+    height: 16px;
+    margin-right: 22px;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--orange);
+}
+
+input[type="checkbox"]:hover {
+    color: white;
+}
+
+
+#btn-bron {
+    max-width: 390px;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 27px 128px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    display: block;
+    background: url(../img/main/calendare-gold.svg) no-repeat;
+    width: 15px;
+    height: 10px;
+    border-width: thin;
+    margin: 0px 10px 0 0 ;
+}

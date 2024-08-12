@@ -1,0 +1,183 @@
+@media screen and (max-width: 320px) {
+    .header__top {
+        justify-content: space-between;
+        align-items: end;
+        padding: 20px;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-place,
+    .header-user {
+        display: block;
+    }
+
+    .header__main {
+        background-position: 64%;
+    }
+
+    hr {
+        margin: 15px 0;
+    }
+
+    /* main */
+    .main-flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .max-width {
+        max-width: 100%;
+    }
+
+    .phone_title {
+        display: block;
+    }
+
+    .phone-photoshoot-left-reviews {
+        display: flex;
+    }
+
+    .photoshoot-left-reviews,
+    .date-left-reviews {
+        display: none;
+    }
+
+    .photoshoot-left{
+        max-width: 100%;
+    }
+
+    .photoshoot-left p {
+        margin: 0;
+    }
+
+
+    .photoshoot-left h2,
+    .packagePhotos h3,
+    .upcomingShooting h3,
+    .comment h3 {
+        display: none;
+    }
+
+    .packagePhotos-grid {
+        width: 100%;
+        display: flex;
+        flex-wrap: no-wrap;
+        overflow-x: auto;
+    }
+
+    .two_arrows,
+    .phone-hide {
+        display: none;
+    }
+
+    .aboutOrganizator {
+        gap: 25px;
+    }
+
+    .aboutOrganizator-right,
+    .aboutOrganizator-left {
+        max-width: 100%;
+    }
+
+    .upcomingShooting-main {
+        max-width: 100%;
+    }
+
+    .date {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .map {
+        background-position: 57%
+    }
+
+    .map__info {
+        display: none;
+    }
+
+    .phone-map {
+        display: flex;
+        margin: 52px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .phone-date-left-reviews{
+        display: flex;
+    }
+
+    .map__info-flex {
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--arrow);
+        padding: 26px 15px;
+        width: 80%;
+    }
+
+    .flex-item-left {
+        margin: 0;
+    }
+
+    .map__info-flex-item-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .flex-item-img {
+        margin-right: 11px;
+    }
+
+    .comment-flex-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment-flex {
+        max-width: 100%;
+    }
+
+    .phone-comment-flex {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .flex-item {
+        align-items: center;
+        margin-bottom: 31px;
+    }
+
+    .flex-item-left-comment {
+        max-width: 40%;
+    }
+
+    .flex-item-right-comment {
+        max-width: 60%;
+    }
+
+    .phone-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .modal{
+        max-width: 290px;
+    }
+
+    .modal-data{
+        width: 100%;
+    }
+
+    #btn-bron{
+        padding: 27px 20px;
+    }
+}
